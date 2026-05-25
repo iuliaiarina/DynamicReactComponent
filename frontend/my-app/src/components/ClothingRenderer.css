@@ -1,0 +1,82 @@
+.clothing-renderer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.clothing-renderer__toolbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.clothing-renderer__toggle-btn {
+  border: 1px solid #cbd5e1;
+  background: #ffffff;
+  color: #0f172a;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.clothing-renderer__toggle-btn:hover {
+  background: #f8fafc;
+}
+
+.clothing-renderer__raw-markdown {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 14px;
+  font-family: Consolas, 'Courier New', monospace;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #0f172a;
+}
+
+.clothing-renderer__prose,
+.clothing-renderer__prose-text {
+  font-size: 0.92rem;
+  color: #334155;
+  line-height: 1.65;
+}
+
+.clothing-renderer__prose-text {
+  margin: 0 0 8px;
+}
+
+.clothing-renderer__prose-list {
+  margin: 4px 0 8px 16px;
+  padding: 0;
+  font-size: 0.92rem;
+  color: #334155;
+  line-height: 1.65;
+}
+
+.clothing-renderer__prose-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 12px 0 8px;
+}
+
+.clothing-renderer__prose-subheading {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #475569;
+  margin: 8px 0 6px;
+}
+
+.clothing-renderer__prose a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.clothing-renderer__prose a:hover {
+  text-decoration: underline;
+}
