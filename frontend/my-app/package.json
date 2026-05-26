@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "hast-util-select": "^6.0.4",
+    "hast-util-to-text": "^4.0.2",
+    "html-balancer-stream": "^1.0.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-markdown": "^10.1.0",
